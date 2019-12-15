@@ -34,7 +34,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         {
             case 1:
                 // code
-                fragment = new Welcome();
+                fragment =  new Welcome();
                 break;
             case 2:
                 //code
@@ -51,7 +51,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 
     @Override
