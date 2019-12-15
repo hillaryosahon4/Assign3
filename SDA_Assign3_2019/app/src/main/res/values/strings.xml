@@ -24,5 +24,6 @@
     <string name="border">border</string>
 
     <string name="welcome">Welcome</string>
+    <string name="welcome_tab">Welcome to my T-Shirt Store!</string>
 
 </resources>
