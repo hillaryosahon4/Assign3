@@ -11,32 +11,18 @@
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".Welcome"><![CDATA[
+        tools:context=".Welcome">
 >
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        ]]>
-
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="408dp"
-            android:layout_height="488dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
             android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/editCustomer"
@@ -67,7 +53,6 @@
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/imageView"
-            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent" />
 
