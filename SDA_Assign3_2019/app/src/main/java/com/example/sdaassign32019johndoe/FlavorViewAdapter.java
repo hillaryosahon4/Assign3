@@ -80,7 +80,7 @@ public class FlavorViewAdapter extends RecyclerView.Adapter<FlavorViewAdapter.Vi
 
             //grab the image, the text and the layout id's
             imageItem = itemView.findViewById(R.id.imageItem);
-            imageText = itemView.findViewById(R.id.imageText);
+            imageText = itemView.findViewById(R.id.flavorText);
             versionText = itemView.findViewById(R.id.flavorVers);
             itemParentLayout = itemView.findViewById(R.id.listItemLayout);
 
