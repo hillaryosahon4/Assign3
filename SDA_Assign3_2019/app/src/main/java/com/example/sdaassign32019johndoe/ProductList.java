@@ -33,17 +33,18 @@ public class ProductList extends Fragment {
         // Inflate the layout for this fragment
 
         View root = inflater.inflate(R.layout.fragment_product_list, container, false);
-        // Create an ArrayList of AndroidFlavor objects
-        mFlavor.add(new FlavorAdapter("Donut", "1.6", R.drawable.donut));
-        mFlavor.add(new FlavorAdapter("Eclair", "2.0-2.1", R.drawable.eclair));
-        mFlavor.add(new FlavorAdapter("Froyo", "2.2-2.2.3", R.drawable.froyo));
-        mFlavor.add(new FlavorAdapter("GingerBread", "2.3-2.3.7", R.drawable.gingerbread));
-        mFlavor.add(new FlavorAdapter("Honeycomb", "3.0-3.2.6", R.drawable.honeycomb));
-        mFlavor.add(new FlavorAdapter("Ice Cream Sandwich", "4.0-4.0.4", R.drawable.icecream));
-        mFlavor.add(new FlavorAdapter("Jelly Bean", "4.1-4.3.1", R.drawable.jellybean));
-        mFlavor.add(new FlavorAdapter("KitKat", "4.4-4.4.4", R.drawable.kitkat));
-        mFlavor.add(new FlavorAdapter("Lollipop", "5.0-5.1.1", R.drawable.lollipop));
-        mFlavor.add(new FlavorAdapter("Marshmallow", "6.0-6.0.1", R.drawable.marshmallow));
+        // Create an ArrayList of T-Shirts objects
+
+        mFlavor.add(new FlavorAdapter("Beat shirt", "Spring 2020", R.drawable.t_shirt_4));
+        mFlavor.add(new FlavorAdapter("Eclair shirt", "Summer 2020 ", R.drawable.t_shirt_5));
+        mFlavor.add(new FlavorAdapter("Froyo shirt", "Summer 2019", R.drawable.t_shirt_9));
+        mFlavor.add(new FlavorAdapter("Ginger shirt", "Summer 2019", R.drawable.t_shirt_8));
+        mFlavor.add(new FlavorAdapter("Honey shirt", "Spring 2019", R.drawable.t_shirt_4));
+        mFlavor.add(new FlavorAdapter("Ice shirt", "Spring 2020", R.drawable.t_shirt_1));
+        mFlavor.add(new FlavorAdapter("Jelly shirt", "Spring 2019", R.drawable.t_shirt_2));
+        mFlavor.add(new FlavorAdapter("KitKat shirt ", "Winter 2020", R.drawable.t_shirt_3));
+        mFlavor.add(new FlavorAdapter("Lollipop shirt", "Summer 2020", R.drawable.t_shirt_6));
+        mFlavor.add(new FlavorAdapter("Mars shirt", "Spring 2020", R.drawable.t_shirt_7));
 
         //start it with the view
         Log.d(TAG, "Starting recycler view");
